@@ -1,0 +1,7 @@
+{
+    "name": "PathFinder",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PathFinder</string>
+    <string name="title_activity_main">PathFinder</string>
+    <string name="package_name">io.ionic.PathFinder</string>
+    <string name="custom_url_scheme">io.ionic.PathFinder</string>
+</resources>

@@ -1,0 +1,9 @@
+{
+    "appId": "io.ionic.PathFinder",
+    "appName": "PathFinder",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+  }
+  
