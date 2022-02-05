@@ -1,72 +1,22 @@
 {
-  "name": "cz2006-fe",
-  "version": "0.1.0",
+  "name": "nuxt-community-typescript-template",
+  "description": "A boilerplate to start a Nuxt+TS project quickly",
+  "version": "2.15.8",
   "private": true,
   "dependencies": {
-    "@affinidi/eslint-config-react": "^2.0.0-beta.0",
-    "@affinidi/prettier-config": "^2.0.0-beta.0",
-    "@emotion/react": "^11.4.1",
-    "@emotion/styled": "^11.3.0",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@mui/icons-material": "^5.0.4",
-    "@mui/material": "^5.0.4",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.33",
-    "@types/react": "^17.0.30",
-    "@types/react-dom": "^17.0.9",
-    "@types/react-router-dom": "^5.3.1",
-    "amazon-cognito-identity-js": "^5.1.2",
-    "aws-sdk": "^2.1008.0",
-    "axios": "^0.22.0",
-    "chart.js": "^3.5.1",
-    "dotenv": "^10.0.0",
-    "joi": "^17.4.2",
-    "joi-password": "^1.6.0",
-    "material-ui-popup-state": "^2.0.0",
-    "react": "^17.0.2",
-    "react-chartjs-2": "^3.0.5",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-loading-overlay": "^1.0.1",
-    "react-material-ui-carousel": "^2.3.5",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.4",
-    "typescript": "^4.4.4",
-    "web-vitals": "^1.1.2"
+    "nuxt": "2.15.8"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --max-warnings 0 --ext .ts,.vue ."
   },
   "devDependencies": {
-    "@iconify/react": "^3.0.1",
-    "@types/react-helmet": "^6.1.4",
-    "@types/react-loading-overlay": "^1.0.0",
-    "@types/react-scroll": "^1.8.3"
+    "@nuxt/types": "2.15.8",
+    "@nuxt/typescript-build": "2.1.0",
+    "@nuxtjs/eslint-config-typescript": "8.0.0",
+    "eslint": "8.6.0"
   }
 }

@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Nuxt TypeScript starter template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A [Nuxt.js](https://github.com/nuxt/nuxt.js) + [@nuxt/typescript](https://github.com/nuxt/typescript) starter project template.
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+Create your repository by [Use this template](https://github.com/nuxt-community/typescript-template/generate) button from [this template](https://github.com/nuxt-community/typescript-template) and clone into your local.
 
-### `npm start`
+Then, run below command and follow its message.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+./init.sh
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The command will ask your preference for the API to write Vue component among:
 
-### `npm test`
+- Options API
+- Class API with with nuxt-property-decorator
+- Composition API (Experimental) with [@nuxt/composition-api](https://github.com/nuxt-community/composition-api)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+### Run Development server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm run dev
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build/Run SSR enabled application
 
-### `npm run eject`
+```sh
+npm run build
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Static Generation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e5bf3478-1cb8-44c4-8aeb-040083bd39ca/deploy-status)](https://nuxt-ts-template.netlify.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+npm run generate #=> Then distribute /dist
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## FAQ
 
-## Learn More
+- Q. How about providing sample usage of "xyz" (The name of OSS which you want to use)?
+  - A. Recommend running into [create-nuxt-app](https://github.com/nuxt/create-nuxt-app). This template aims to provide a minimal sample that follows the latest version of Nuxt.js and [@nuxt/typescript](https://github.com/nuxt/typescript). 
+- Q. I think the usage of Vuex is not typed enough...?
+  - A. We know! We desire the next major version of Vuex (v4) saves our bacon.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Miss the old way of this repository?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+That still alives on [master](https://github.com/nuxt-community/typescript-template/tree/master) branch.
