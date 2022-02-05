@@ -1,11 +1,21 @@
 import type { NuxtConfig } from '@nuxt/types'
 
 const config: NuxtConfig = {
-  build: {},
+  build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {}
+      }
+    }
+  },
   buildModules: [
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
+    '@nuxt/postcss8'
   ],
-  css: [],
+  css: [
+    '@/assets/css/main.css'
+  ],
   env: {},
   head: {
     title: 'nuxt-community/typescript-template',
